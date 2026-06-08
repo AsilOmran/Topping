@@ -28,13 +28,13 @@ body {
   }
 
   to {
-    transform: translateY(10px);
+    transform: translateY(30px);
   }
 }
 
 .title {
   display: inline-block;
-  animation: move 2s infinite alternate;
+  animation: move 1s infinite alternate;
 }
 @media (max-width: 900px) {
   .artists {
