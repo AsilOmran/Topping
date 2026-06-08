@@ -5,6 +5,19 @@
   flex-direction: column;
   align-items: center;
 }
+@keyframes grow {
+  from {
+    width: 200px;
+  }
+
+  to {
+    width: 220px;
+  }
+}
+
+img {
+  animation: grow 2s infinite alternate;
+}
 img {
   transition: 0.3s;
 }
