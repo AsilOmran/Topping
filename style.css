@@ -24,15 +24,16 @@ body {
 }
 @keyframes move {
   from {
-    margin-top: 0px;
+    transform: translateY(0);
   }
 
   to {
-    margin-top: 10px;
+    transform: translateY(10px);
   }
 }
 
 .title {
+  display: inline-block;
   animation: move 2s infinite alternate;
 }
 @media (max-width: 900px) {
