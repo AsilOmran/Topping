@@ -5,19 +5,7 @@
   flex-direction: column;
   align-items: center;
 }
-@keyframes grow {
-  from {
-    width: 200px;
-  }
 
-  to {
-    width: 220px;
-  }
-}
-
-img {
-  animation: grow 2s infinite alternate;
-}
 img {
   transition: 0.3s;
 }
@@ -33,6 +21,19 @@ img:hover {
 body {
   background-image: url("https://img.freepik.com/free-vector/pink-flower-pattern-wallpaper-vector-hand-drawn-style_53876-136788.jpg");
   background-size: cover;
+}
+@keyframes move {
+  from {
+    margin-top: 0px;
+  }
+
+  to {
+    margin-top: 10px;
+  }
+}
+
+.title {
+  animation: move 2s infinite alternate;
 }
 @media (max-width: 900px) {
   .artists {
